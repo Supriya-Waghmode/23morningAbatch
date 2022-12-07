@@ -20,7 +20,7 @@ public class AlphaPriority {
 		System.out.println("Before method is running");
 	}
 	
-	@Test  (priority = 4)
+	@Test  (priority = 3)
 	public void test1()
 	{
 	   	System.out.println("Test1 method is running");
